@@ -2,7 +2,7 @@
 %% Initialization
 clear ; close all; clc
 
-data=load('training.txt');
+data=load('data.txt');
 m=size(data,2);
 x=data(:,1:m-1);
 k=size(x,1)
